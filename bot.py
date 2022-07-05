@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-import os
-import re
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, Filters, PicklePersistence, CallbackQueryHandler
 
-TOKEN = os.getenv('API_KEY')
+TOKEN = "5509696114:AAHIWuVzKvsHZEExSMJfhf89SF-Wrb-0JBI"
 
 # This function replies with 'Hello <user.first_name>'
 def hello(update: Update, context: CallbackContext) -> None:
