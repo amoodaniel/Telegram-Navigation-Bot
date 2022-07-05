@@ -1,4 +1,3 @@
-telegram.ext
-telegram
+python-telegram-bot
 os
 re
